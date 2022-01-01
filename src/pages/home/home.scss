@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Rock+Salt&display=swap");
+@import "../../style/index.scss";
+
+$font-letter: "Architects Daughter", cursive;
+$letter-color: #fff;
+$corner-color: #2f2f2f;
+$center-color: #263238;
+
+%properties-shared {
+  color: $letter-color;
+  line-height: 0.2px;
+  font-family: $font-letter;
+}
+
+.home {
+  background-color: $corner-color;
+}
+
+.homeHeader {
+  padding: 2em;
+  background-color: $center-color;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.35;
+  height: 200px;
+
+  h1 {
+    color: rgb(253, 255, 117);
+    font-family: $font-title;
+    font-size: 40px;
+    line-height: 1px;
+  }
+  h2 {
+    @extend %properties-shared;
+  }
+  h4 {
+    @extend %properties-shared;
+  }
+  p {
+    @extend %properties-shared;
+  }
+}

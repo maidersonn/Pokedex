@@ -1,0 +1,18 @@
+@import "../../style/index.scss";
+
+.footer {
+  font-family: $font-footer;
+  font-size: 12px;
+  text-align: center;
+  border-bottom: $back-color 1px solid;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.footerAnchor {
+  text-decoration: none;
+}
+
+.footerAnchor:hover {
+  opacity: 1;
+}

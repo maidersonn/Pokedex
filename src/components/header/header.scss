@@ -1,0 +1,44 @@
+@import "../../style/index.scss";
+
+.title {
+  font-family: $font-title;
+  font-size: 8px;
+  margin-left: 10%;
+  letter-spacing: 4px;
+}
+
+.titlePokedex {
+  color: $title-color;
+}
+
+.link {
+  font-family: $font-letter;
+  margin-right: 15%;
+  font-size: 20px;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.linksUnderCondition {
+  display: contents;
+}
+
+.header {
+  background-color: $back-color;
+  border-bottom: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+  height: 40px;
+}
+
+.default {
+  text-decoration: none;
+}
+
+.selected {
+  font-weight: bold;
+}

@@ -1,0 +1,12 @@
+.name {
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+
+.pokeInfo {
+  height: 10em;
+}
+
+.image {
+  width: 100%;
+}

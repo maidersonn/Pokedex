@@ -1,0 +1,12 @@
+@import "../../style/index.scss";
+
+.loginPage {
+  @include sheet;
+}
+
+.registerInLogin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}

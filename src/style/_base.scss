@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Rock+Salt&family=Sofia&display=swap");
+
+$font-title: "Rock Salt", cursive;
+$font-letter: "Architects Daughter", cursive;
+$font-footer: "Sofia", cursive;
+
+$title-color: rgb(176, 248, 116);
+$back-color: rgb(255, 71, 71);
+$page-color: white;
+
+html,
+body,
+#root {
+  background-color: #fce5e5;
+  height: 100%;
+}
+
+@mixin sheet {
+  background-color: white;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 70%;
+  font-family: $font-letter;
+  margin-top: 5%;
+}
