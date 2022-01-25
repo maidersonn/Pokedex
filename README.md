@@ -1,5 +1,5 @@
 Project started with create-react-app.
 
-I used React, React Hooks, React Router, Axios, SASS, Vercel and Github Actions.
+I used React, React Hooks, React Router, Axios, SASS, Vercel and Github Actions to develop this project.
 
 This project needs an api to work. It is set in an environmental variable.
