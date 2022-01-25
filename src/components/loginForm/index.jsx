@@ -8,7 +8,7 @@ const Form = ({ onSubmit }) => {
   } = useForm();
 
   return (
-    <form classname="loginForm" onSubmit={handleSubmit(onSubmit)}>
+    <form className="loginForm" onSubmit={handleSubmit(onSubmit)}>
       <input placeholder="username" {...register("username")} />
       <input
         placeholder="email"

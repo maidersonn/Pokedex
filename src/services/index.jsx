@@ -11,7 +11,7 @@ const pokeClient = axios.create({
 });
 
 const authClient = axios.create({
-  baseURL: "http://localhost:3001",
+  baseURL: process.env.REACT_APP_BACK_URL,
   headers: {
     "Content-Type": "application/json",
   },

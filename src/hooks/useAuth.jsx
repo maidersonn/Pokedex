@@ -35,7 +35,6 @@ export const useAuth = () => {
   const register = async (body) => {
     setRegistered(false);
     const result = await auth.register(body);
-    console.log("useAuth", result);
     if (result) {
       setRegistered(true);
     }
