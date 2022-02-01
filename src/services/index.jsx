@@ -9,9 +9,9 @@ const pokeClient = axios.create({
     "Content-Type": "application/json",
   },
 });
-
+console.log(process.env.REACT_APP_BACK_URL);
 const authClient = axios.create({
-  baseURL: process.env.REACT_APP_BACK_URL,
+  baseURL: "https://pokedex-maider.herokuapp.com/",
   headers: {
     "Content-Type": "application/json",
   },

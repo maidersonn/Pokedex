@@ -7,7 +7,6 @@ import "./register.scss";
 
 const Register = () => {
   const { register, registered } = useContext(context);
-  console.log("page Registered", registered);
   const handleClickSubmit = (formData) => register(formData);
 
   return registered ? (
