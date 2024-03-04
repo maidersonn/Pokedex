@@ -1,6 +1,8 @@
-Project started with create-react-app.
+### Description
 
-I used React, React Hooks, React Router, Axios, SASS, Vercel and Github Actions to develop this project.
+Project example to communicate a Front with a Back. It uses create-react-app, React, React Hooks, React Router, Axios, SASS, Vercel and Github Actions to develop this project.
+
+### Set up
 
 This project needs an api to work. It is set in an environmental variable.
 
