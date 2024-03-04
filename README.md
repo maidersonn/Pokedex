@@ -7,3 +7,6 @@ Project example to communicate a Front with a Back. It uses create-react-app, Re
 This project needs an api to work. It is set in an environmental variable.
 
 You can find the api code here : https://github.com/maidersonn/Pokedex-Back
+Run the back of this proyect and set up the environmental variable of front.
+
+npm run start
